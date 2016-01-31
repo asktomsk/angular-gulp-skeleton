@@ -14,7 +14,7 @@
         function ($routeProvider, $locationProvider, $resourceProvider, urls) {
             $routeProvider
                 .when(urls.main, {
-                    templateUrl:    'tpl/main.tpl',
+                    templateUrl:    'tpl/main.html',
                     controller:     'mainCtrl',
                     controllerAs:   'main'
                 })
@@ -63,7 +63,7 @@
     function loader () {
     	return {
 	        restrict:       'E',
-	        templateUrl:    'tpl/loader.tpl'
+	        templateUrl:    'tpl/loader.html'
 	    };
     }
 

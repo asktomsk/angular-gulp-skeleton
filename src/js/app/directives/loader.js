@@ -8,7 +8,7 @@
     function loader () {
     	return {
 	        restrict:       'E',
-	        templateUrl:    'tpl/loader.tpl'
+	        templateUrl:    'tpl/loader.html'
 	    };
     }
 

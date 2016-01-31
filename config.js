@@ -14,7 +14,7 @@ var srcPaths = {
     allStylus:      ['src/styl/*.styl'],
     appJs:          ['src/js/app/**/*.js'],
     vendorJs:       'node_modules/',
-    templates:      ['src/tpl/**/*.tpl']
+    templates:      ['src/tpl/**/*.html']
 };
 
 var distPaths = {
